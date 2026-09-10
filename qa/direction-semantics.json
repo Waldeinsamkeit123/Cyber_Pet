@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "reviewed_by": "independent-final-visual-qa",
+  "directions": [
+    {"direction":"000","expected":"up","observed":"unmistakable upward cardinal","verdict":"pass","reason":"Head and gaze clearly point up."},
+    {"direction":"022.5","expected":"up-right","observed":"up-right","verdict":"pass","reason":"Coherent first intermediate from up toward right."},
+    {"direction":"045","expected":"up-right","observed":"clear up-right diagonal","verdict":"pass","reason":"Both horizontal and vertical cues are readable."},
+    {"direction":"067.5","expected":"up-right","observed":"right with subtle upward cue","verdict":"warning","reason":"Vertical cue is subtle, but the labeled loop position is coherent."},
+    {"direction":"090","expected":"right","observed":"unmistakable screen-right profile","verdict":"pass","reason":"Right cardinal is clear."},
+    {"direction":"112.5","expected":"down-right","observed":"right with subtle downward cue","verdict":"warning","reason":"Vertical cue is subtle, but the labeled loop position is coherent."},
+    {"direction":"135","expected":"down-right","observed":"clear down-right diagonal","verdict":"pass","reason":"Both horizontal and vertical cues are readable."},
+    {"direction":"157.5","expected":"down-right","observed":"coherent near-down rightward intermediate","verdict":"pass","reason":"Progression into the down cardinal is smooth."},
+    {"direction":"180","expected":"down","observed":"unmistakable downward cardinal","verdict":"pass","reason":"Head and gaze clearly point down."},
+    {"direction":"202.5","expected":"down-left","observed":"down-left","verdict":"pass","reason":"Coherent first intermediate from down toward left."},
+    {"direction":"225","expected":"down-left","observed":"clear down-left diagonal","verdict":"pass","reason":"Both horizontal and vertical cues are readable."},
+    {"direction":"247.5","expected":"down-left","observed":"left with subtle downward cue","verdict":"warning","reason":"Vertical cue is subtle, but the labeled loop position is coherent."},
+    {"direction":"270","expected":"left","observed":"unmistakable screen-left profile","verdict":"pass","reason":"Left cardinal is clear."},
+    {"direction":"292.5","expected":"up-left","observed":"up-left with subtle horizontal cue","verdict":"warning","reason":"Blind horizontal evidence is weak, but the labeled loop remains coherent."},
+    {"direction":"315","expected":"up-left","observed":"up-left with subtle horizontal cue","verdict":"warning","reason":"Blind horizontal evidence is weak, but the labeled loop remains coherent."},
+    {"direction":"337.5","expected":"up-left","observed":"up-left closing pose with subtle horizontal cue","verdict":"warning","reason":"Blind horizontal evidence is weak and the wrap metric is an outlier, but no visible snap or reversal occurs."}
+  ]
+}
