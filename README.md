@@ -1,5 +1,7 @@
 # Cyber Shu
 
+[English](README.md) | [简体中文](README.zh-CN.md)
+
 Cyber Shu is a custom animated pet for the Codex desktop app. He wears a blue T-shirt and black glasses, with animations for idling, running, waving, jumping, waiting, failure, code review, and more.
 
 ![Cyber Shu animation overview](preview/contact-sheet.png)
@@ -61,7 +63,8 @@ Cyber_Shu/
 ├── source/
 │   └── avatar.png        # Stylized character artwork; no original photo
 ├── install.sh            # macOS / Linux installer
-└── README.md
+├── README.md             # English
+└── README.zh-CN.md       # Simplified Chinese
 ```
 
 ## Technical Specifications
