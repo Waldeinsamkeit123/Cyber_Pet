@@ -13,8 +13,8 @@ Cyber Shu is a custom animated pet for the Codex desktop app. He wears a blue T-
 Clone the repository and run the installer:
 
 ```bash
-git clone git@github.com:Waldeinsamkeit123/Cyber_Shu.git
-cd Cyber_Shu
+git clone git@github.com:Waldeinsamkeit123/Cyber_Pet.git
+cd Cyber_Pet
 ./install.sh
 ```
 
@@ -54,7 +54,7 @@ After installation, open or restart Codex and select **Cyber Shu** in the **Mini
 ## Project Structure
 
 ```text
-Cyber_Shu/
+Cyber_Pet/
 ├── pet/
 │   ├── pet.json          # Codex pet manifest
 │   └── spritesheet.webp  # Ready-to-use v2 spritesheet

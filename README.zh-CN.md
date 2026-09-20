@@ -13,8 +13,8 @@ Cyber Shu 是一个可用于 Codex 桌面端的自定义动态宠物：蓝色 T 
 克隆仓库后运行：
 
 ```bash
-git clone git@github.com:Waldeinsamkeit123/Cyber_Shu.git
-cd Cyber_Shu
+git clone git@github.com:Waldeinsamkeit123/Cyber_Pet.git
+cd Cyber_Pet
 ./install.sh
 ```
 
@@ -54,7 +54,7 @@ cd Cyber_Shu
 ## 项目结构
 
 ```text
-Cyber_Shu/
+Cyber_Pet/
 ├── pet/
 │   ├── pet.json          # Codex 宠物配置
 │   └── spritesheet.webp  # 可直接使用的 v2 精灵图
