@@ -44,19 +44,17 @@ cp pets/cyber-pao/pet.json pets/cyber-pao/spritesheet.webp \
 
 ## 动画预览
 
-下表展示 Cyber Shu。Cyber Pao 的动图见 [`preview/cyber-pao/`](preview/cyber-pao/)。
-
-| 状态 | 预览 |
-| --- | --- |
-| 待机 | ![待机](preview/idle.gif) |
-| 向右奔跑 | ![向右奔跑](preview/running-right.gif) |
-| 向左奔跑 | ![向左奔跑](preview/running-left.gif) |
-| 挥手 | ![挥手](preview/waving.gif) |
-| 跳跃 | ![跳跃](preview/jumping.gif) |
-| 等待 | ![等待](preview/waiting.gif) |
-| 执行中 | ![执行中](preview/running.gif) |
-| 失败 | ![失败](preview/failed.gif) |
-| 代码审查 | ![代码审查](preview/review.gif) |
+| 状态 | Cyber Shu | Cyber Pao |
+| --- | --- | --- |
+| 待机 | ![Cyber Shu 待机](preview/idle.gif) | ![Cyber Pao 待机](preview/cyber-pao/idle.gif) |
+| 向右奔跑 | ![Cyber Shu 向右奔跑](preview/running-right.gif) | ![Cyber Pao 向右奔跑](preview/cyber-pao/running-right.gif) |
+| 向左奔跑 | ![Cyber Shu 向左奔跑](preview/running-left.gif) | ![Cyber Pao 向左奔跑](preview/cyber-pao/running-left.gif) |
+| 挥手 | ![Cyber Shu 挥手](preview/waving.gif) | ![Cyber Pao 挥手](preview/cyber-pao/waving.gif) |
+| 跳跃 | ![Cyber Shu 跳跃](preview/jumping.gif) | ![Cyber Pao 跳跃](preview/cyber-pao/jumping.gif) |
+| 等待 | ![Cyber Shu 等待](preview/waiting.gif) | ![Cyber Pao 等待](preview/cyber-pao/waiting.gif) |
+| 执行中 | ![Cyber Shu 执行中](preview/running.gif) | ![Cyber Pao 执行中](preview/cyber-pao/running.gif) |
+| 失败 | ![Cyber Shu 失败](preview/failed.gif) | ![Cyber Pao 失败](preview/cyber-pao/failed.gif) |
+| 代码审查 | ![Cyber Shu 代码审查](preview/review.gif) | ![Cyber Pao 代码审查](preview/cyber-pao/review.gif) |
 
 ## 项目结构
 

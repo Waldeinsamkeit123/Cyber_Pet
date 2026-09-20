@@ -44,19 +44,17 @@ Open or restart Codex, then select the installed pet.
 
 ## Animation Preview
 
-The GIFs below show Cyber Shu. See [`preview/cyber-pao/`](preview/cyber-pao/) for Cyber Pao's animations.
-
-| State | Preview |
-| --- | --- |
-| Idle | ![Idle](preview/idle.gif) |
-| Running right | ![Running right](preview/running-right.gif) |
-| Running left | ![Running left](preview/running-left.gif) |
-| Waving | ![Waving](preview/waving.gif) |
-| Jumping | ![Jumping](preview/jumping.gif) |
-| Waiting | ![Waiting](preview/waiting.gif) |
-| Working | ![Working](preview/running.gif) |
-| Failed | ![Failed](preview/failed.gif) |
-| Code review | ![Code review](preview/review.gif) |
+| State | Cyber Shu | Cyber Pao |
+| --- | --- | --- |
+| Idle | ![Cyber Shu idle](preview/idle.gif) | ![Cyber Pao idle](preview/cyber-pao/idle.gif) |
+| Running right | ![Cyber Shu running right](preview/running-right.gif) | ![Cyber Pao running right](preview/cyber-pao/running-right.gif) |
+| Running left | ![Cyber Shu running left](preview/running-left.gif) | ![Cyber Pao running left](preview/cyber-pao/running-left.gif) |
+| Waving | ![Cyber Shu waving](preview/waving.gif) | ![Cyber Pao waving](preview/cyber-pao/waving.gif) |
+| Jumping | ![Cyber Shu jumping](preview/jumping.gif) | ![Cyber Pao jumping](preview/cyber-pao/jumping.gif) |
+| Waiting | ![Cyber Shu waiting](preview/waiting.gif) | ![Cyber Pao waiting](preview/cyber-pao/waiting.gif) |
+| Working | ![Cyber Shu working](preview/running.gif) | ![Cyber Pao working](preview/cyber-pao/running.gif) |
+| Failed | ![Cyber Shu failed](preview/failed.gif) | ![Cyber Pao failed](preview/cyber-pao/failed.gif) |
+| Code review | ![Cyber Shu code review](preview/review.gif) | ![Cyber Pao code review](preview/cyber-pao/review.gif) |
 
 ## Project Structure
 
