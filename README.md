@@ -1,10 +1,17 @@
-# Cyber Shu
+# Cyber Pet
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
-Cyber Shu is a custom animated pet for the Codex desktop app. He wears a blue T-shirt and black glasses, with animations for idling, running, waving, jumping, waiting, failure, code review, and more.
+Two custom animated pets for the Codex desktop app:
 
-![Cyber Shu animation overview](preview/contact-sheet.png)
+- **Cyber Shu** — cheerful, in a blue T-shirt and black glasses.
+- **Cyber Pao** — sleepy, in a white T-shirt, black trousers, and white sneakers.
+
+Both include the standard Codex animations and 16 look directions.
+
+| Cyber Shu | Cyber Pao |
+| --- | --- |
+| ![Cyber Shu animation overview](preview/contact-sheet.png) | ![Cyber Pao animation overview](preview/cyber-pao/contact-sheet.png) |
 
 ## Quick Start
 
@@ -15,29 +22,29 @@ Clone the repository and run the installer:
 ```bash
 git clone git@github.com:Waldeinsamkeit123/Cyber_Pet.git
 cd Cyber_Pet
-./install.sh
+./install.sh             # Cyber Shu
+./install.sh cyber-pao   # Cyber Pao
 ```
 
-After installation, open or restart Codex and select **Cyber Shu** in the **Mini / Pet settings**. The exact menu name may vary between Codex versions.
+After installation, open or restart Codex and select **Cyber Shu** or **Cyber Pao** in the **Mini / Pet settings**. The exact menu name may vary between Codex versions.
 
 ### Manual Installation
 
-1. Create a pet directory inside the Codex configuration directory:
+For Cyber Shu, copy `pet/pet.json` and `pet/spritesheet.webp` into `${CODEX_HOME:-$HOME/.codex}/pets/cyber-shu/`. For Cyber Pao, copy the two files from `pets/cyber-pao/` into `${CODEX_HOME:-$HOME/.codex}/pets/cyber-pao/`.
 
-   ```bash
-   mkdir -p "${CODEX_HOME:-$HOME/.codex}/pets/cyber-shu"
-   ```
+For example, to install Cyber Pao manually:
 
-2. Copy the pet manifest and spritesheet:
+```bash
+mkdir -p "${CODEX_HOME:-$HOME/.codex}/pets/cyber-pao"
+cp pets/cyber-pao/pet.json pets/cyber-pao/spritesheet.webp \
+  "${CODEX_HOME:-$HOME/.codex}/pets/cyber-pao/"
+```
 
-   ```bash
-   cp pet/pet.json pet/spritesheet.webp \
-     "${CODEX_HOME:-$HOME/.codex}/pets/cyber-shu/"
-   ```
-
-3. Open or restart Codex, then select **Cyber Shu**.
+Open or restart Codex, then select the installed pet.
 
 ## Animation Preview
+
+The GIFs below show Cyber Shu. See [`preview/cyber-pao/`](preview/cyber-pao/) for Cyber Pao's animations.
 
 | State | Preview |
 | --- | --- |
@@ -58,10 +65,14 @@ Cyber_Pet/
 ├── pet/
 │   ├── pet.json          # Codex pet manifest
 │   └── spritesheet.webp  # Ready-to-use v2 spritesheet
-├── preview/              # Animation GIFs and overview image
-├── qa/                   # Layout, transparency, and animation checks
+├── pets/cyber-pao/       # Cyber Pao manifest and spritesheet
+├── preview/              # Cyber Shu previews
+│   └── cyber-pao/        # Cyber Pao previews
+├── qa/                   # Validation reports
+│   └── cyber-pao/
 ├── source/
-│   └── avatar.png        # Stylized character artwork; no original photo
+│   ├── avatar.png        # Cyber Shu stylized artwork
+│   └── cyber-pao/avatar.png
 ├── install.sh            # macOS / Linux installer
 ├── README.md             # English
 └── README.zh-CN.md       # Simplified Chinese
@@ -77,22 +88,22 @@ Cyber_Pet/
 - Look directions: 16
 - Image format: WebP with transparency
 
-The final spritesheet passed layout, transparency, chroma-key residue, and animation-completeness checks. See [`qa/`](qa/) for the reports.
+Both final spritesheets passed layout and transparency checks. See [`qa/`](qa/) for the reports.
 
 ## Customizing the Name or Description
 
-You can edit `displayName` and `description` in [`pet/pet.json`](pet/pet.json). Do not change `spriteVersionNumber`, the spritesheet dimensions, or the grid layout, as Codex may no longer play the animations correctly.
+You can edit `displayName` and `description` in [`pet/pet.json`](pet/pet.json) or [`pets/cyber-pao/pet.json`](pets/cyber-pao/pet.json). Do not change `spriteVersionNumber`, the spritesheet dimensions, or the grid layout, as Codex may no longer play the animations correctly.
 
 ## Uninstalling
 
 Remove the installed pet directory:
 
 ```bash
-rm -rf "${CODEX_HOME:-$HOME/.codex}/pets/cyber-shu"
+rm -rf "${CODEX_HOME:-$HOME/.codex}/pets/cyber-pao"
 ```
 
-Before running the command, confirm that the path is complete and points specifically to the `cyber-shu` pet directory.
+Replace `cyber-pao` with `cyber-shu` to uninstall Cyber Shu. Before running the command, confirm that the path points specifically to the intended pet directory.
 
 ## Privacy
 
-The character is a stylized creation based on a private visual reference. This repository contains only generated pet assets and does not include the original photograph.
+Both characters are stylized creations based on private visual references. This repository contains only generated pet assets and does not include the original photographs.
